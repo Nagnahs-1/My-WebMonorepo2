@@ -24,8 +24,10 @@ jobs:
         with:
           version: 9.8.0
       - name: Install modules
+        working-directory: ./ssy-ui-vite
         run: pnpm install
       - name: Run Lint
+        working-directory: ./ssy-ui-vite
         run: pnpm run lint
   UnitTest:
     # The type of runner that the job will run on
