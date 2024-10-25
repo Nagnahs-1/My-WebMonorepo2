@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@iconify-json/ic": "^1.2.1",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
